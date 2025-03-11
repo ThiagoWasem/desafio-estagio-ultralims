@@ -70,28 +70,3 @@ Agora, basta abrir `index.html` no navegador.
 4. É possível ordenar a lista por cidade, bairro ou estado.
 
 ---
-
-## 🔄 Como Subir para o GitHub
-
-### 1️⃣ **Criar um Repositório**  
-- Acesse [GitHub](https://github.com/) e crie um repositório chamado `desafio-estagio-ultralims`.
-
-### 2️⃣ **Enviar os Arquivos**  
-No terminal, na pasta raiz do projeto, execute:
-```sh
-git init
-git add .
-git commit -m "feat: adiciona solução do desafio 2"
-git branch -M main
-git remote add origin https://github.com/seu-usuario/desafio-estagio-ultralims.git
-git push -u origin main
-```
-
-### 3️⃣ **Compartilhar o Link**  
-Envie o link do repositório no e-mail para `th@ultralims.com.br` com o assunto:
-📩 **[Vaga Estágio Desenvolvimento - Seu Nome]**
-
----
-
-### ✨ Bom desafio e boa sorte! 🚀
-
