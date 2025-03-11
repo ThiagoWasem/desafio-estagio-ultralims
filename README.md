@@ -21,7 +21,7 @@ Este projeto permite consultar um endereço pelo CEP, armazenar os registros e e
 │   ├── saqueCaixaEletronico.js
 │── /desafio2
 │── /backend
-│   ├── server.js       # Servidor backend com Express
+│   ├── servidor.js       # Servidor backend com Express
 │   ├── database.json     # Configuração do banco de dados SQLite
 │   ├── apiViaCep.js    # Módulo para buscar endereço na API ViaCEP
 │── /frontend
