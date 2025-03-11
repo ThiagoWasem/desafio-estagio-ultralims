@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de Endereços</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Consulta de Endereços</h1>
+        <input type="text" id="cepInput" placeholder="Digite o CEP">
+        <button onclick="buscarEndereco()">Buscar</button>
+        <p id="mensagemErro"></p>
+
+        <h2>Endereços Armazenados</h2>
+        <label>Ordenar por:</label>
+        <select id="ordenarPor" onchange="carregarEnderecos()">
+            <option value="">Nenhum</option>
+            <option value="cidade">Cidade</option>
+            <option value="bairro">Bairro</option>
+            <option value="estado">Estado</option>
+        </select>
+        <button onclick="alternarOrdem()">Alternar Ordem</button>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>CEP</th>
+                    <th>Logradouro</th>
+                    <th>Bairro</th>
+                    <th>Cidade</th>
+                    <th>Estado</th>
+                </tr>
+            </thead>
+            <tbody id="tabelaEnderecos"></tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
