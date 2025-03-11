@@ -13,10 +13,16 @@ Este projeto permite consultar um endereço pelo CEP, armazenar os registros e e
 
 ## 📂 Estrutura de Pastas
 ```
-/desafio2
+│── /desafio1
+│   ├── fibonacci.js
+│   ├── buscaBinaria.js
+│   ├── numeroPerfeito.js
+│   ├── substringPalindromica.js
+│   ├── saqueCaixaEletronico.js
+│── /desafio2
 │── /backend
 │   ├── server.js       # Servidor backend com Express
-│   ├── database.js     # Configuração do banco de dados SQLite
+│   ├── database.json     # Configuração do banco de dados SQLite
 │   ├── apiViaCep.js    # Módulo para buscar endereço na API ViaCEP
 │── /frontend
 │   ├── index.html      # Interface do usuário
