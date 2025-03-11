@@ -70,3 +70,20 @@ Agora, basta abrir `index.html` no navegador.
 4. É possível ordenar a lista por cidade, bairro ou estado.
 
 ---
+
+## 🔠 Desafio 1: Lógica de Programação
+
+Este desafio consiste em resolver cinco problemas de lógica utilizando qualquer linguagem de programação.
+
+### ✨ Desafios:
+- **Sequência de Fibonacci:** Gerar os `n` primeiros números.
+- **Busca Binária:** Encontrar o índice de um número em uma lista ordenada.
+- **Números Perfeitos:** Identificar se um número é perfeito.
+- **Substring Palindrômica Mais Longa:** Encontrar a maior substring palindrômica em uma string.
+- **Saque em Caixa Eletrônico:** Calcular o menor número de notas necessárias para um saque.
+
+Os códigos referentes a esses desafios estão localizados na pasta `/desafio1`.
+
+---
+
+
